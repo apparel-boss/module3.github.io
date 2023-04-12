@@ -2,4 +2,9 @@ section{
   padding: 50px;
   text-align: center;
   background-color: #000000
+    
+    @media (max-width: 440px) {
+  section{
+    padding: 10px;
   }
+}
