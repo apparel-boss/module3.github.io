@@ -1,3 +1,25 @@
+Button{
+  display: block;
+  width: 25%;
+  border: none;
+  background-color: #808080;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+@keyframes Button {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+Button:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
 section{
   padding: 50px;
   text-align: center;
@@ -11,4 +33,3 @@ section{
     padding: 10px;
   }
 }
-
